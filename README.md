@@ -14,6 +14,9 @@ Avatar convertor : VRChat(VRCSDK2) avatar to ChilloutVR avatar
 
 ![usage](usage.png)
 
+## Caution!
+
+The author of this tool does not fully understand VRChat's "AnimationOverride", so there may be mistakes in the conversion of override. Pull requests are welcome!
 ## License
 
 [Zlib](LICENSE)
