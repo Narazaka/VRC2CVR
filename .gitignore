@@ -69,3 +69,10 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+/[Aa]ssets/VRCSDK/*
+/[Aa]ssets/VRCSDK.meta
+/[Aa]ssets/VRChat Examples/*
+/[Aa]ssets/VRChat Examples.meta
+/[Aa]ssets/ABI.CCK/*
+/[Aa]ssets/ABI.CCK.meta

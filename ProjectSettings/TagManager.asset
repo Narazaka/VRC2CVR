@@ -13,17 +13,17 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PlayerLocal
+  - PlayerClone
+  - PlayerNetwork
+  - MirrorReflection
+  - CVRReserved1
+  - CVRReserved2
+  - CVRReserved3
+  - CVRReserved4
+  - PostProcessing
+  - CVRPickup
+  - CVRInteractable
   - 
   - 
   - 
