@@ -75,4 +75,6 @@ crashlytics-build.properties
 /[Aa]ssets/VRChat Examples/*
 /[Aa]ssets/VRChat Examples.meta
 /[Aa]ssets/ABI.CCK/*
-/[Aa]ssets/ABI.CCK.meta
+![Aa]ssets/ABI.CCK/ABI.CCK.asmdef
+/[Aa]ssets/Shapell/data/ShapellCustomOverride-cvr.overrideController
+/[Aa]ssets/Shapell/data/ShapellCustomOverride-cvr.overrideController.meta
