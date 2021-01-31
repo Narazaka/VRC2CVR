@@ -1,4 +1,4 @@
-# VRC2CVR
+# VRC2CVR-YA
 
 Avatar convertor : VRChat(VRCSDK2) avatar to ChilloutVR avatar
 
@@ -17,6 +17,11 @@ Avatar convertor : VRChat(VRCSDK2) avatar to ChilloutVR avatar
 ## Caution!
 
 The author of this tool does not fully understand VRChat's "AnimationOverride", so there may be mistakes in the conversion of override. Pull requests are welcome!
+
+## Renamed!
+
+There was an existing tool called https://github.com/ZettaiVR/VRC2CVR, which had a same name, so I renamed it to VRC2CVR-YA (although the code is still all VRC2CVR because it is just a product name). This tool is easier to use for migrating existing avatars because the original one requires deleting the VRCSDK.
+
 ## License
 
 [Zlib](LICENSE)
