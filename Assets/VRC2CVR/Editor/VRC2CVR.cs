@@ -96,10 +96,14 @@ public class VRC2CVR {
             var cvrOverrides = new List<KeyValuePair<AnimationClip, AnimationClip>>(vrcAnims.overridesCount);
             cvrAnims.GetOverrides(cvrOverrides);
             for (var i = 0; i < cvrOverrides.Count; ++i) {
-                var vrcClipName = OverrideMap[cvrOverrides[i].Key.name];
-                if (vrcClipName == "") continue;
-                var vrcClip = vrcOverrideMap[vrcClipName];
-                cvrOverrides[i] = new KeyValuePair<AnimationClip, AnimationClip>(cvrOverrides[i].Key, vrcClip);
+                if (OverrideMap.TryGetValue(cvrOverrides[i].Key.name, out var vrcClipName)) {
+                    if (vrcClipName == "")
+                        continue;
+                    var vrcClip = vrcOverrideMap[vrcClipName];
+                    cvrOverrides[i] = new KeyValuePair<AnimationClip, AnimationClip>(cvrOverrides[i].Key, vrcClip);
+                } else {
+                    Debug.LogWarning($"{cvrOverrides[i].Key.name} is unknown. please report this to VRC2CVR-YA author.");
+                }
             }
             cvrAnims.ApplyOverrides(cvrOverrides);
         }
