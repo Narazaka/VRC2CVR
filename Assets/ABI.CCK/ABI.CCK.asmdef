@@ -1,7 +1,11 @@
 {
     "name": "ABI.CCK",
-    "references": [],
-    "includePlatforms": [],
+    "references": [
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
